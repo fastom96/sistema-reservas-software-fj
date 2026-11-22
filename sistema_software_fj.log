@@ -1,0 +1,22 @@
+2026-11-20 15:08:32,222 - INFO - === INICIO DE SIMULACIONES DEL SISTEMA SOFTWARE FJ ===
+2026-11-20 15:08:32,223 - INFO - Cliente registrado exitosamente: Laura Rivera (ID: CLI-01)
+2026-11-20 15:08:32,223 - INFO - Cliente registrado exitosamente: John Ossa (ID: CLI-02)
+2026-11-20 15:08:32,223 - ERROR - Simulación 2 (Error esperado): El documento debe contener solo números y tener mínimo 5 digitos.
+2026-11-20 15:08:32,224 - ERROR - Simulación 3 (Error esperado): El nombre del cliente debe tener al menos 3 letras
+2026-11-20 15:08:32,224 - INFO - Servicio de Sala creado: Sala Ejecutiva Norte (ID: SRV-01)
+2026-11-20 15:08:32,225 - INFO - Servicio de Alquiler de Equipo creado: Kit Proyectar + Portátil (ID: SRV-02)
+2026-11-20 15:08:32,225 - INFO - Servicio de Asesoría creado: Consultoría Ciberseguridad (ID: SRV-03)
+2026-11-20 15:08:32,225 - ERROR - Simulación 5 (Error encadenado): La tarifa base 'cincuenta_mil' debe ser un valor numérico válido. | Causa original: ValueError
+2026-11-20 15:08:32,226 - ERROR - Simulación 6 (Error esperado): La sala debe tener capacidad mínima para 2 personas.
+2026-11-20 15:08:32,226 - INFO - Reserva [RES-01] creada en estado Pendiente para Laura Riveraen el servicio 'Sala Ejecutiva Norte'.
+2026-11-20 15:08:32,226 - INFO - Reserva [RES-01] confirmada. Costo estimado: $176715.00
+2026-11-20 15:08:32,226 - ERROR - Simulación 8 (Error esperado): El servicio 'Sala Ejecutiva Norte' no se encuentra disponible
+2026-11-20 15:08:32,227 - INFO - Reserva [RES-01] procesada y liquidada por $176715.00.
+2026-11-20 15:08:32,227 - INFO - Auditoria finalizada para la reserva [RES-01] (Estado: Procesada).
+2026-11-20 15:08:32,227 - INFO - Reserva [RES-03] creada en estado Pendiente para John Ossaen el servicio 'Kit Proyectar + Portátil'.
+2026-11-20 15:08:32,227 - INFO - Reserva [RES-03] confirmada. Costo estimado: $190000.00
+2026-11-20 15:08:32,227 - INFO - Reserva [RES-03] cancelada. Motivo: Cambio de fecha solicitado por el cliente
+2026-11-20 15:08:32,228 - ERROR - Simulación 11 (Error esperado): No se puede cancelaar la reserva [RES-03] en estado 'Cancelada'.
+2026-11-20 15:08:32,228 - INFO - Reserva [RES-04] creada en estado Pendiente para Laura Riveraen el servicio 'Consultoría Ciberseguridad'.
+2026-11-20 15:08:32,228 - ERROR - Simulación 12 (Error esperado): Solo se pueden procesar reservas confirmadas. Estado actual de [Pendiente]'.
+2026-11-20 15:08:32,229 - INFO - === FIN DE SIMULACIONES - APLICACIÓN ESTABLE SIN INTERRUPCIONES ===
